@@ -14,7 +14,8 @@ const resetBall = () => {
 }
 
 let score = 0;
-let hit = falselet resetId = 0
+let hit = falselet 
+let resetId = 0
 on($("#weapon"), 'collide', (e)=>{
     const ball = $("#ball")
     if(e.detail.body.id === ball.body.id && !hit){
